@@ -34,7 +34,6 @@ body {
   margin: 0 auto;
   transform: translateY(100%);
   background-color: var(--clr-container);
-
 }
 
 .container h1 {
