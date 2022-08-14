@@ -23,7 +23,7 @@ a {
 }
 
 body {
-  background-color: var(--clr-primary);
+  overflow: hidden;
 }
 
 .container {
@@ -33,7 +33,6 @@ body {
   align-items: center;
   gap: 2rem;
   padding: 2rem;
-  background-color: #feede1;
   width: 50%;
   margin: 0 auto;
   transform: translateY(100%);

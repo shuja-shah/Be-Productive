@@ -5,10 +5,12 @@ module.exports = {
   mode: "development",
   entry: {
     index: "./src/index.js",
+    particle: "./src/particles.js",
+    app: "./src/app.js",
   },
 
   output: {
-    filename: "bundle.js",
+    filename: "[name].[hash:8].js",
     path: path.resolve(__dirname, "dist"),
   },
   plugins: [
