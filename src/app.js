@@ -1,20 +1,21 @@
+/*eslint-disable */
 particlesJS("particles-js", {
   particles: {
     number: {
-      value: 160,
+      value: 200,
       density: {
         enable: true,
-        value_area: 4000,
+        value_area: 5000,
       },
     },
     color: {
-      value: "#ff3232",
+      value: "#feede1",
     },
     shape: {
       type: "circle",
       stroke: {
         width: 0,
-        color: "#ff3232",
+        color: "#feede1",
       },
       polygon: {
         nb_sides: 5,
@@ -26,21 +27,21 @@ particlesJS("particles-js", {
       },
     },
     opacity: {
-      value: 1,
+      value: 0.9,
       random: true,
       anim: {
         enable: true,
-        speed: 0.5,
+        speed: 0.9,
         opacity_min: 0,
         sync: false,
       },
     },
     size: {
-      value: 5,
+      value: 6,
       random: true,
       anim: {
         enable: false,
-        speed: 2,
+        speed: 3,
         size_min: 0.3,
         sync: false,
       },

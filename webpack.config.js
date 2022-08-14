@@ -1,21 +1,21 @@
-const path = require("path");
-const HTMLWebpackPlugin = require("html-webpack-plugin");
+const path = require('path');
+const HTMLWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-  mode: "development",
+  mode: 'development',
   entry: {
-    index: "./src/index.js",
-    particle: "./src/particles.js",
-    app: "./src/app.js",
+    index: './src/index.js',
+    particle: './src/particles.js',
+    app: './src/app.js',
   },
 
   output: {
-    filename: "[name].[hash:8].js",
-    path: path.resolve(__dirname, "dist"),
+    filename: '[name].[hash:8].js',
+    path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
     new HTMLWebpackPlugin({
-      template: "./src/index.html",
+      template: './src/index.html',
     }),
   ],
 
@@ -23,7 +23,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },

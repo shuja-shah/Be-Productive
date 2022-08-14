@@ -5,6 +5,7 @@
   --clr-background: #241722;
   --clr-particle: #632329;
   --clr-text: #feede1;
+  --clr-container: #462730;
   --clr-button: linear-gradient(180deg, #632329 0%, #f25551 49.65%, rgba(80, 242, 131, 0.8) 100%);
 }
 
@@ -24,6 +25,7 @@ a {
 
 body {
   overflow: hidden;
+  background-color: #241722;
 }
 
 .container {
@@ -36,6 +38,15 @@ body {
   width: 50%;
   margin: 0 auto;
   transform: translateY(100%);
+  background-color: var(--clr-container);
+}
+
+.container h1 {
+  font-size: 2.5rem;
+  font-family: 'Poppins', sans-serif;
+  color: var(--clr-text);
+  text-align: center;
+  letter-spacing: 0.15px;
 }
 
 .flex {
@@ -52,4 +63,14 @@ body {
 .btn-start {
   width: 40%;
   padding: 0.7rem;
+}
+
+#btn-start {
+  background-color: var(--clr-primary);
+  border: none;
+  color: var(--clr-text);
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.15px;
+  font-weight: 800;
 }
