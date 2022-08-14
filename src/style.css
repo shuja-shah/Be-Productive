@@ -64,6 +64,12 @@ body {
   letter-spacing: 0.15px;
   border-radius: 0.4rem;
   padding: 0.7rem;
+  transition: color 0.3s;
+}
+
+#btn-start:hover {
+  background-color: #ffd3d3;
+  color: #de3344;
 }
 
 @media (min-width: 768px) {
