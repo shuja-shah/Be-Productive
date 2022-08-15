@@ -1,4 +1,5 @@
-import "./style.css";
-const colorChange = document.querySelector(".head");
+import './style.css';
 
-colorChange.style.color = "blue";
+const colorChange = document.querySelector('.head');
+
+colorChange.style.color = 'blue';
