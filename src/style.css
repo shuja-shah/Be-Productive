@@ -91,14 +91,33 @@ body {
   padding-right: 10px;
  
 }
-#headline button{
+#addition{
+  border: 3px solid hsl(354, 48%, 36%);
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  height: 2.5rem;
+  background-color: hsl(354, 48%, 12%);
+}
+#addNew{
   border: 3px solid hsl(354, 48%, 36%);
   border-radius: 15px;
   background-color: hsl(309, 22%, 6.5%);
   color: hsl(354, 48%, 36%);
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
-  height: 1.2rem;
+  height: 1.5rem;
+  width: 1.5rem;
+  
+}
+#addition p{
+  padding-left: 8px;
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
+  color: hsl(354, 48%, 56%);
+  
 }
 
 
