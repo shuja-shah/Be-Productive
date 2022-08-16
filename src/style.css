@@ -25,7 +25,7 @@ a {
 
 body {
   overflow: hidden;
-  background-color: #241722;
+  background-color: hsl(309, 22%, 6.5%);
 }
 
 .particles {
