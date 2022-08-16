@@ -119,6 +119,9 @@ body {
   color: hsl(354, 48%, 56%);
   
 }
+.none{
+  display:none;
+}
 
 
 @media (min-width: 768px) {
@@ -143,7 +146,4 @@ body {
     margin: 0 auto;
     background-color: var(--clr-container);
   }
-}
-.none{
-  display:none;
 }
