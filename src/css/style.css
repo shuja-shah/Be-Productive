@@ -26,12 +26,12 @@ a {
 
 body {
   background-color: hsl(309, 22%, 6.5%);
+  /* overflow: hidden; */
 }
 
 .particles {
   filter: blur(1px);
 }
-
 
 .block-container {
   padding: 2rem;
@@ -57,6 +57,7 @@ body {
 
 .headline {
   font-size: 3rem;
+  color:var(--clr-text) ;
 }
 
 
@@ -71,15 +72,12 @@ body {
   transition: color 0.3s;
 }
 
-
-
 #btn-start:hover {
   background-color: #ffd3d3;
   color: #de3344;
 }
 .dashboard {
   display: grid;
-  padding: 0 34px;
 }
 #headline{
   font-size: 0.9rem;
@@ -116,7 +114,7 @@ body {
   width: 1.5rem;
   
 }
-#addition p{
+#addition p {
   padding-left: 8px;
   font-size: 0.9rem;
   font-family: 'Poppins', sans-serif;
@@ -127,50 +125,24 @@ body {
   display:none;
 }
 main {
-  background-color: #ffd3d3;
+  padding: 1rem;
 }
 
 
 aside .side-bar {
-  width: 50%;
+  /* display: none; */
+  position: fixed;
+  z-index: 6;
+  width:58%;
   height: 100vh;
-  background-color: #ffd3d3;
-  
-  
+  background-color: #3C4554;
 }
 
-@media (min-width: 768px) {
-
-  main {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-  }
-  
-  #btn-start {
-    background-color: var(--clr-primary);
-    border: none;
-    color: var(--clr-text);
-    font-size: 1.1rem;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 0.15px;
-    font-weight: 800;
-    padding: 0.7rem;
-  }
-
-  .block-container {
-    position: absolute;
-    top: 31%;
-    left: 23%;
-    z-index: 4;
-    padding: 2rem;
-    width: 50%;
-    margin: 0 auto;
-    background-color: var(--clr-container);
-  }
-  .block{
-    display: block;
-  }
-  main {
-    background-color: aliceblue ;
-  }
+.personal-info {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #feede1;
 }
+
