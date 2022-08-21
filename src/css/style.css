@@ -76,10 +76,12 @@ body {
   background-color: #ffd3d3;
   color: #de3344;
 }
+
 .dashboard {
   display: grid;
 }
-#headline{
+
+#headline {
   font-size: 0.9rem;
   font-family: 'Poppins', sans-serif;
   color: var(--clr-text);
@@ -91,9 +93,9 @@ body {
   align-items: center;
   padding: 16px 0;
   padding-right: 10px;
- 
 }
-#addition{
+
+#addition {
   border: 3px solid hsl(354, 48%, 36%);
   border-radius: 15px;
   display: flex;
@@ -112,8 +114,8 @@ body {
   font-weight: 800;
   height: 1.5rem;
   width: 1.5rem;
-  
 }
+
 #addition p {
   padding-left: 8px;
   font-size: 0.9rem;
@@ -121,19 +123,26 @@ body {
   color: hsl(354, 48%, 56%);
   
 }
-.none{
+
+.none {
   display:none;
 }
+
 main {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
-
-
+.box {
+  width: 10%;
+  height: 20vh
+  
+}
 aside .side-bar {
   /* display: none; */
   position: fixed;
   z-index: 6;
-  width:58%;
+  width: 58%;
   height: 100vh;
   background-color: #3C4554;
 }

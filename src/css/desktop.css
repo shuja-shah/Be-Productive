@@ -32,6 +32,8 @@
     }
   
     main {
+        display: flex;
+        flex-direction: row;
         background-color: aliceblue ;
     }
   
@@ -39,9 +41,17 @@
         /* display: none; */
         position: fixed;
         z-index: 6;
-        width: 20%;
+        width: 15%;
         height: 100vh;
         background-color: #3C4554;
     }
-    
+
+    .box {
+        width: 18%;
+        height: 20vh;  
+    }
+    .box-2{
+        width: 100%;
+    }
+
 }
