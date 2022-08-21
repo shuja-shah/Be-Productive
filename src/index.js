@@ -1,4 +1,5 @@
 import "./css/style.css";
+import "./css/desktop.css";
 
 const getStarted = document.getElementById("btn-start");
 
@@ -11,5 +12,7 @@ getStarted.addEventListener("click", (e) => {
   const particles = document.querySelector(".particles");
   particles.classList.add("none");
   const sideBar = document.querySelector("aside");
-  sideBar.classList.add("block");
+  sideBar.style.display = "block";
+  const main = document.querySelector("main");
+  main.style.display = "grid";
 });
