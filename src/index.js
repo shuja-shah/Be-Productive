@@ -1,10 +1,10 @@
-import "./style.css";
+import "./css/style.css";
 
 const getStarted = document.getElementById("btn-start");
 
 getStarted.addEventListener("click", (e) => {
   e.preventDefault();
-  const start = document.querySelector(".container");
+  const start = document.querySelector(".block-container");
   start.classList.add("none");
   const dashboard = document.querySelector(".dashboard");
   dashboard.classList.remove("none");
