@@ -1,0 +1,47 @@
+
+@media(min-width: 768px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr ;
+    }
+    
+    #btn-start {
+        background-color: var(--clr-primary);
+        border: none;
+        color: var(--clr-text);
+        font-size: 1.1rem;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 0.15px;
+        font-weight: 800;
+        padding: 0.7rem;
+    }
+  
+    .block-container {
+        position: absolute;
+        top: 31%;
+        left: 23%;
+        z-index: 4;
+        padding: 2rem;
+        width: 50%;
+        margin: 0 auto;
+        background-color: var(--clr-container);
+    }
+    .block{
+        display: block;
+    }
+  
+    main {
+        background-color: aliceblue ;
+    }
+  
+    aside .side-bar {
+        /* display: none; */
+        position: fixed;
+        z-index: 6;
+        width: 20%;
+        height: 100vh;
+        background-color: #3C4554;
+    }
+    
+}
