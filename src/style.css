@@ -123,6 +123,16 @@ body {
   display:none;
 }
 
+.block{
+  display: block;
+}
+aside .side-bar {
+  width: 50%;
+  height: 100vh;
+  background-color: #ffd3d3;
+  
+  
+}
 
 @media (min-width: 768px) {
   #btn-start {
