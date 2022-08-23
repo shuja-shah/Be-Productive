@@ -1,12 +1,12 @@
 
 @media (min-width: 768px) {
     h1 {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     main {
         display: grid;
-        grid-template-columns: 20% auto;
+        grid-template-columns: 17% auto;
         flex-direction: row;
         background-color: var(--clr-conatiner); 
         padding: 0;
@@ -35,7 +35,8 @@
     }
 
     .personal-info{
-        padding: 1rem;
+        padding: 1.2rem 1rem;
+        background-color: var(--clr-secondary);
     }
 
     #headline{
@@ -47,13 +48,19 @@
     }
 
     aside .side-bar {
-        /* display: none; */
-        /* position: fixed; */
-        /* z-index: 6; */
-        /* width: 15%; */
+        display: flex;
+        flex-direction: column;
+        gap:4rem;
+        
         height: 100vh;
         background-color: var(--clr-conatiner);
-        padding: 1rem 0.5rem;
+    }
+    
+    .logo {
+        padding: 0.7rem 1.2rem;
+        font-size: x-large;
+        font-weight: 500;
+        color: var(--clr-text) !important;
     }
 
     .box-link {
@@ -61,20 +68,25 @@
         display: flex;
         gap:1rem;
         align-items: center;
-        padding: 1rem;
+        padding: 1rem 1.2rem;
         color: var(--clr-text) !important;
     }
 
     .box-link svg {
         width: 20px;
-        height:2px;
+        height:20px;
     }
     .box-2 {
         width: 100%;
     }
 
+    .nav-link li:nth-child(5){
+        margin-top: 4rem;
+    }
     .js-section{
         background-color: var(--clr-secondary);
         width: 100%;
+        height: 100vh;
+        padding: 1rem;
     }
 }
