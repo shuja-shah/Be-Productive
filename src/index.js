@@ -14,5 +14,5 @@ getStarted.addEventListener("click", (e) => {
   const sideBar = document.querySelector("aside");
   sideBar.style.display = "block";
   const main = document.querySelector("main");
-  main.style.display = "flex";
+  main.style.display = "grid";
 });
