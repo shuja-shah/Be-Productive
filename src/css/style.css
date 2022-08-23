@@ -8,6 +8,7 @@
   --clr-secondary: #352432 ;
   --clr-text: #feede1;
   --clr-container: #462730;
+  --clr-hover: #ffa9a6;
   --clr-button: linear-gradient(180deg, #632329 0%, #f25551 49.65%, rgba(80, 242, 131, 0.8) 100%);
 }
 
@@ -75,7 +76,7 @@ body {
 }
 
 #btn-start:hover {
-  background-color: var(--clr-container);
+  background-color: var(--clr-hover);
   color: var(--clr-text);
 }
 
@@ -98,21 +99,21 @@ body {
 }
 
 #addition {
-  border: 3px solid hsl(354, 48%, 36%);
+  border: 3px solid var(--clr-hover);
   border-radius: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 15px;
   height: 2.5rem;
-  background-color: hsl(354, 48%, 12%);
+  background-color:var(--clr-particle)
 }
 
 #addNew {
   border: 3px solid hsl(354, 48%, 36%);
   border-radius: 15px;
   background-color: hsl(309, 22%, 6.5%);
-  color: hsl(354, 48%, 36%);
+  color: var(--clr-text);
   font-family: 'Poppins', sans-serif;
   font-weight: 800;
   height: 1.5rem;
@@ -123,7 +124,7 @@ body {
   padding-left: 8px;
   font-size: 0.9rem;
   font-family: 'Poppins', sans-serif;
-  color: hsl(354, 48%, 56%);
+  color: var(--clr-text);
 }
 
 .none {
