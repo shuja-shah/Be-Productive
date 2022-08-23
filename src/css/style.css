@@ -4,7 +4,8 @@
   --clr-primary: #f25551;
   --clr-background: #241722;
   --clr-particle: #632329;
-  --clr-secondary: #9b7e81;
+  /* --clr-secondary: #9b7e81; */
+  --clr-secondary: #352432 ;
   --clr-text: #feede1;
   --clr-container: #462730;
   --clr-button: linear-gradient(180deg, #632329 0%, #f25551 49.65%, rgba(80, 242, 131, 0.8) 100%);
@@ -141,7 +142,7 @@ main {
 }
 
 aside .side-bar {
-  /* display: none; */
+  display: none;
   /* position: fixed;
   z-index: 6;
   width: 58%;
@@ -155,4 +156,9 @@ aside .side-bar {
   justify-content: space-between;
   align-items: center;
   background-color: #feede1;
+}
+
+.box-link svg {
+  width: 5px;
+  height:5px;
 }
