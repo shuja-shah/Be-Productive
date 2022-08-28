@@ -86,7 +86,13 @@
     .js-section{
         background-color: var(--clr-secondary);
         width: 100%;
-        height: 100vh;
+        height: 70vh;
         padding: 1rem;
+        border: 1Px solid turquoise  ;
+        background-image: url('/images/ink-layer.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
     }
+    
 }
